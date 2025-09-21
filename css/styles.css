@@ -1,0 +1,19 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.interactive-btn {
+  transition: transform 0.2s;
+}
+
+.interactive-btn:hover {
+  transform: scale(1.05);
+}
+
+.creative-component {
+  background: linear-gradient(45deg, #007bff, #6610f2);
+  color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 20px 0;
+}

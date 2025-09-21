@@ -1,0 +1,19 @@
+{
+  "name": "brandan-yong-homepage",
+  "version": "1.0.0",
+  "description": "Personal homepage for Brandan Yong",
+  "type": "module",
+  "main": "index.html",
+  "scripts": {
+    "start": "npx http-server .",
+    "lint": "eslint .",
+    "format": "prettier --write ."
+  },
+  "author": "Brandan Yong",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.0",
+    "prettier": "^3.0.0",
+    "http-server": "^14.0.0"
+  }
+}
