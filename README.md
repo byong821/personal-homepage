@@ -11,7 +11,8 @@ https://johnguerra.co/classes/webDevelopment_fall_2025/
 Create a professional personal homepage showcasing my background, skills, and projects using modern web development technologies including ES6 modules, responsive design, and interactive JavaScript functionality.
 
 ## Screenshot
-Place holder until deployed with github.io
+![Homepage Preview](/images/homepage_preview.jpeg)
+
 
 ## Project Structure
 ```
