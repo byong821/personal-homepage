@@ -1,5 +1,5 @@
 {
-  "name": "brandan-yong-homepage",
+  "name": "@byong821/brandan-yong-homepage",
   "version": "1.0.0",
   "description": "Personal homepage for Brandan Yong",
   "type": "module",
@@ -13,7 +13,8 @@
   "license": "MIT",
   "devDependencies": {
     "eslint": "^8.0.0",
-    "prettier": "^3.0.0",
-    "http-server": "^14.0.0"
+    "eslint-config-prettier": "^10.1.8",
+    "http-server": "^14.0.0",
+    "prettier": "^3.0.0"
   }
 }
