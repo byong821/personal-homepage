@@ -15,7 +15,7 @@ Create a professional personal homepage showcasing my background, skills, and pr
 
 ## Screenshot
 
-![Homepage Preview](/images/homepage_preview.jpeg)
+![Homepage Preview](./images/homepage_preview.jpeg)
 
 ## Project Structure
 
@@ -23,19 +23,24 @@ Create a professional personal homepage showcasing my background, skills, and pr
 personal-homepage/
 ├── css/
 │   └── styles.css
+├── docs/
+│   ├── design-document.md
+│   └── generate_projects_page.md
 ├── images/
+│   ├── codechunk_generated.jpeg
+│   ├── homepage_preview.jpeg
 │   ├── homepage.jpeg
-│   └── codechunk_generated.jpeg
+│   └── wireframes.svg
 ├── js/
 │   └── main.js
 ├── pages/
 │   ├── about.html
 │   └── projects.html
-├── docs/                    # Project documentation and design notes
-├── index.html
-├── package.json
 ├── .eslintrc.js
 ├── .prettierrc
+├── index.html
+├── LICENSE
+├── package.json
 └── README.md
 ```
 
