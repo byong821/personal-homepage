@@ -24,9 +24,69 @@
 
     <main class="container mt-5 mb-5">
       <div class="row">
-        <div class="col-12 text-center">
-          <h1>About Me</h1>
-          <p>Page 2 - About content goes here</p>
+        <div class="col-12">
+          <h1 class="text-center mb-4">About Me</h1>
+          <div class="accordion" id="aboutAccordion">
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#education" aria-expanded="false" aria-controls="education">
+                  Education
+                </button>
+              </h2>
+              <div id="education" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                <div class="accordion-body">
+                  <strong>Northeastern University</strong> - Boston, MA<br>
+                  Candidate for: Master of Science, Computer Science | Current GPA: 3.9/4<br>
+                  Jan 2024 - Present<br>
+                  <em>Relevant Coursework:</em> Object-Oriented Design, Algorithms, Database Management Systems, Machine Learning, Foundations of Artificial Intelligence, Web Development, Data Mining Techniques<br><br>
+                  <strong>Massachusetts College of Pharmacy and Health Science</strong> - Boston, MA<br>
+                  Bachelor of Science, Nursing | GPA: 3.4/4<br>
+                  May 2022
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#personal" aria-expanded="false" aria-controls="personal">
+                  Personal
+                </button>
+              </h2>
+              <div id="personal" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                <div class="accordion-body">
+                  <strong>Boston Knights Chinese Athletic Club Executive Committee</strong> - Boston, MA<br>
+                  Jul 2023 - Jul 2024<br>
+                  • Spearheaded the expansion of the program, allowing over 200+ underprivileged Asian American kids to access safe spaces for sports and socialization<br>
+                  • Developed and managed budgets, financial planning<br><br>
+                  <strong>Languages:</strong> English, Taishanese, Cantonese<br><br>
+                  <strong>Interests:</strong> 9-Man Volleyball, Golf, Olympic Weightlifting, Volleyball, Traveling, Video Editing
+                </div>
+              </div>
+            </div>
+            <div class="accordion-item">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#professional" aria-expanded="false" aria-controls="professional">
+                  Professional
+                </button>
+              </h2>
+              <div id="professional" class="accordion-collapse collapse" data-bs-parent="#aboutAccordion">
+                <div class="accordion-body">
+                  <strong>Depository Trust and Clearing Company</strong> - Jersey City, NJ<br>
+                  Information Technology Intern | June 2025 - Present<br>
+                  • Developing Python-based financial data synthesizer backend, generating compliant synthetic datasets for testing and machine learning while ensuring regulatory compliance across enterprise systems<br>
+                  • Collaborating cross-functionally with data science and QA teams to validate synthetic datasets, ensuring accuracy for model training and system performance benchmarking<br>
+                  • Refactoring legacy UDF logic for enterprise-wide daily reports, resolving critical data accuracy issues in financial reporting infrastructure<br>
+                  • Contributing to automated chatbot development project that processes real-time intraday reports, enabling market risk teams to query financial data through natural language interface<br><br>
+                  <strong>Northeastern University</strong> - Boston, MA<br>
+                  Teacher's Assistant - Intensive Foundations of CS | Object-Oriented Design | Aug 2024 - Present<br>
+                  • Adapt creative solutions to assist 160+ students in grasping coding syntax, software testing fundamentals, and core computer science concepts<br>
+                  • Conduct tailored tutoring sessions, including individualized practice problems and review guides, while instructing students on how to read documentation and utilize credible programming resources<br>
+                  • Guide students through the debugging process, providing insights into identifying and resolving coding errors, and enhancing their problem-solving skills<br><br>
+                  <strong>Programming Languages:</strong> Python, C, Java, JavaScript, SQL, HTML, CSS, R<br>
+                  <strong>Development Tools:</strong> PyUnit, JUnit, Visual Studios, IntelliJ, GitHub, RStudio, PyCharm, Snowflake
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </main>
@@ -47,6 +107,7 @@
       </div>
     </footer>
 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
     <script type="module" src="../js/main.js"></script>
   </body>
 </html>
