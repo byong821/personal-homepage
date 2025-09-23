@@ -52,3 +52,8 @@ personal-homepage/
 4. Open browser to `http://localhost:8080`
 5. To format code: `npm run format`
 6. To lint code: `npm run lint`
+
+
+## Link to Deployed Homepage
+
+https://byong821.github.io/personal-homepage/
