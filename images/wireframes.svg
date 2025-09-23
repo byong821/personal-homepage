@@ -1,0 +1,187 @@
+<svg viewBox="0 0 1200 400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Style definitions -->
+  <defs>
+    <style>
+      .wireframe-text { font-family: Arial, sans-serif; font-size: 11px; fill: #666; }
+      .wireframe-heading { font-family: Arial, sans-serif; font-size: 13px; fill: #333; font-weight: bold; }
+      .wireframe-title { font-family: Arial, sans-serif; font-size: 16px; fill: #000; font-weight: bold; }
+      .wireframe-box { fill: none; stroke: #ddd; stroke-width: 1; }
+      .wireframe-filled { fill: #f8f8f8; stroke: #ddd; stroke-width: 1; }
+      .wireframe-primary { fill: #e8f0fe; stroke: #4285f4; stroke-width: 1; }
+      .wireframe-image { fill: #e8e8e8; stroke: #ccc; stroke-width: 1; }
+      .wireframe-nav { fill: #f5f5f5; stroke: #ccc; stroke-width: 1; }
+    </style>
+  </defs>
+
+  <!-- Landing Page -->
+  <g id="landing-page">
+    <text x="150" y="25" class="wireframe-title">Landing Page</text>
+    
+    <!-- Main container -->
+    <rect x="20" y="40" width="350" height="320" class="wireframe-box"/>
+    
+    <!-- Navigation -->
+    <rect x="30" y="50" width="330" height="25" class="wireframe-nav"/>
+    <text x="35" y="65" class="wireframe-text">LOGO</text>
+    <text x="280" y="65" class="wireframe-text">About | Projects | Contact</text>
+    
+    <!-- Hero Section -->
+    <rect x="30" y="85" width="330" height="120" class="wireframe-filled"/>
+    
+    <!-- Profile image -->
+    <circle cx="120" cy="130" r="25" class="wireframe-image"/>
+    <text x="110" y="135" class="wireframe-text">PHOTO</text>
+    
+    <!-- Hero text -->
+    <rect x="160" y="110" width="150" height="15" class="wireframe-primary"/>
+    <text x="165" y="122" class="wireframe-heading">Hi, I'm Brandan Yong</text>
+    
+    <rect x="160" y="130" width="180" height="12" class="wireframe-filled"/>
+    <text x="165" y="140" class="wireframe-text">Brief intro tagline</text>
+    
+    <rect x="160" y="150" width="120" height="30" class="wireframe-filled"/>
+    <text x="165" y="163" class="wireframe-text">Short description of</text>
+    <text x="165" y="175" class="wireframe-text">what you do</text>
+    
+    <!-- CTA Buttons -->
+    <rect x="80" y="220" width="80" height="25" class="wireframe-primary"/>
+    <text x="85" y="235" class="wireframe-text">View Work</text>
+    
+    <rect x="180" y="220" width="80" height="25" class="wireframe-box"/>
+    <text x="185" y="235" class="wireframe-text">Get In Touch</text>
+    
+    <!-- Quick Links Section -->
+    <rect x="30" y="260" width="330" height="90" class="wireframe-filled"/>
+    <text x="35" y="275" class="wireframe-heading">Quick Overview</text>
+    
+    <!-- Three columns -->
+    <rect x="40" y="285" width="90" height="55" class="wireframe-box"/>
+    <text x="45" y="297" class="wireframe-text">Skills</text>
+    <text x="45" y="310" class="wireframe-text">• Tech 1</text>
+    <text x="45" y="322" class="wireframe-text">• Tech 2</text>
+    <text x="45" y="334" class="wireframe-text">• Tech 3</text>
+    
+    <rect x="140" y="285" width="90" height="55" class="wireframe-box"/>
+    <text x="145" y="297" class="wireframe-text">Recent Work</text>
+    <text x="145" y="310" class="wireframe-text">Project Name</text>
+    <text x="145" y="322" class="wireframe-text">Brief description</text>
+    
+    <rect x="240" y="285" width="90" height="55" class="wireframe-box"/>
+    <text x="245" y="297" class="wireframe-text">Connect</text>
+    <text x="245" y="310" class="wireframe-text">LinkedIn</text>
+    <text x="245" y="322" class="wireframe-text">GitHub</text>
+    <text x="245" y="334" class="wireframe-text">Email</text>
+  </g>
+
+  <!-- About Me Page -->
+  <g id="about-page" transform="translate(400, 0)">
+    <text x="150" y="25" class="wireframe-title">About Me Page</text>
+    
+    <!-- Main container -->
+    <rect x="20" y="40" width="350" height="320" class="wireframe-box"/>
+    
+    <!-- Navigation -->
+    <rect x="30" y="50" width="330" height="25" class="wireframe-nav"/>
+    <text x="35" y="65" class="wireframe-text">LOGO</text>
+    <text x="260" y="65" class="wireframe-text">Home | Projects | Contact</text>
+    
+    <!-- Page Header -->
+    <rect x="30" y="85" width="330" height="40" class="wireframe-filled"/>
+    <text x="35" y="102" class="wireframe-heading">About Me</text>
+    <text x="35" y="117" class="wireframe-text">Get to know me better</text>
+    
+    <!-- Profile section -->
+    <circle cx="80" cy="155" r="25" class="wireframe-image"/>
+    <text x="70" y="160" class="wireframe-text">PHOTO</text>
+    
+    <rect x="120" y="135" width="210" height="45" class="wireframe-box"/>
+    <text x="125" y="147" class="wireframe-text">Detailed bio paragraph about background,</text>
+    <text x="125" y="159" class="wireframe-text">experience, interests, and what drives you</text>
+    <text x="125" y="171" class="wireframe-text">professionally and personally...</text>
+    
+    <!-- Experience Timeline -->
+    <text x="35" y="205" class="wireframe-heading">Experience</text>
+    <line x1="35" y1="212" x2="120" y2="212" stroke="#4285f4" stroke-width="2"/>
+    
+    <rect x="35" y="220" width="295" height="30" class="wireframe-box"/>
+    <text x="40" y="233" class="wireframe-text">Job Title - Company (2020-2024)</text>
+    <text x="40" y="244" class="wireframe-text">Key responsibilities and achievements</text>
+    
+    <rect x="35" y="260" width="295" height="30" class="wireframe-box"/>
+    <text x="40" y="273" class="wireframe-text">Previous Role - Company (2018-2020)</text>
+    <text x="40" y="284" class="wireframe-text">Key responsibilities and achievements</text>
+    
+    <!-- Skills & Interests -->
+    <rect x="35" y="300" width="145" height="35" class="wireframe-filled"/>
+    <text x="40" y="313" class="wireframe-text">Technical Skills</text>
+    <text x="40" y="325" class="wireframe-text">Skill list here</text>
+    
+    <rect x="190" y="300" width="145" height="35" class="wireframe-filled"/>
+    <text x="195" y="313" class="wireframe-text">Personal Interests</text>
+    <text x="195" y="325" class="wireframe-text">Hobbies and interests</text>
+  </g>
+
+  <!-- Projects Page -->
+  <g id="projects-page" transform="translate(800, 0)">
+    <text x="150" y="25" class="wireframe-title">Projects Page</text>
+    
+    <!-- Main container -->
+    <rect x="20" y="40" width="350" height="320" class="wireframe-box"/>
+    
+    <!-- Navigation -->
+    <rect x="30" y="50" width="330" height="25" class="wireframe-nav"/>
+    <text x="35" y="65" class="wireframe-text">LOGO</text>
+    <text x="260" y="65" class="wireframe-text">Home | About | Contact</text>
+    
+    <!-- Page Header -->
+    <rect x="30" y="85" width="330" height="35" class="wireframe-filled"/>
+    <text x="35" y="100" class="wireframe-heading">My Projects</text>
+    <text x="35" y="113" class="wireframe-text">A collection of my work</text>
+    
+    <!-- Filter/Categories -->
+    <rect x="30" y="130" width="330" height="20" class="wireframe-nav"/>
+    <text x="40" y="142" class="wireframe-text">All | Web | Mobile | Design</text>
+    
+    <!-- Project 1 -->
+    <rect x="30" y="160" width="330" height="50" class="wireframe-box"/>
+    <rect x="40" y="170" width="40" height="30" class="wireframe-image"/>
+    <text x="50" y="188" class="wireframe-text">IMG</text>
+    
+    <text x="90" y="180" class="wireframe-heading">Project Name 1</text>
+    <text x="90" y="192" class="wireframe-text">Brief project description and tech stack</text>
+    <text x="90" y="203" class="wireframe-text">Key features or achievements</text>
+    
+    <rect x="280" y="170" width="35" height="15" class="wireframe-primary"/>
+    <text x="285" y="179" class="wireframe-text">View</text>
+    <rect x="280" y="190" width="35" height="15" class="wireframe-box"/>
+    <text x="285" y="199" class="wireframe-text">Code</text>
+    
+    <!-- Project 2 -->
+    <rect x="30" y="220" width="330" height="50" class="wireframe-box"/>
+    <rect x="40" y="230" width="40" height="30" class="wireframe-image"/>
+    <text x="50" y="248" class="wireframe-text">IMG</text>
+    
+    <text x="90" y="240" class="wireframe-heading">Project Name 2</text>
+    <text x="90" y="252" class="wireframe-text">Brief project description and tech stack</text>
+    <text x="90" y="263" class="wireframe-text">Key features or achievements</text>
+    
+    <rect x="280" y="230" width="35" height="15" class="wireframe-primary"/>
+    <text x="285" y="239" class="wireframe-text">View</text>
+    <rect x="280" y="250" width="35" height="15" class="wireframe-box"/>
+    <text x="285" y="259" class="wireframe-text">Code</text>
+    
+    <!-- Project 3 -->
+    <rect x="30" y="280" width="330" height="50" class="wireframe-box"/>
+    <rect x="40" y="290" width="40" height="30" class="wireframe-image"/>
+    <text x="50" y="308" class="wireframe-text">IMG</text>
+    
+    <text x="90" y="300" class="wireframe-heading">Project Name 3</text>
+    <text x="90" y="312" class="wireframe-text">Brief project description and tech stack</text>
+    <text x="90" y="323" class="wireframe-text">Key features or achievements</text>
+    
+    <rect x="280" y="290" width="35" height="15" class="wireframe-primary"/>
+    <text x="285" y="299" class="wireframe-text">View</text>
+    <rect x="280" y="310" width="35" height="15" class="wireframe-box"/>
+    <text x="285" y="319" class="wireframe-text">Code</text>
+  </g>
+</svg>

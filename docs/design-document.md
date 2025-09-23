@@ -17,5 +17,5 @@ A personal homepage showcasing my professional profile, skills, and projects.
 - As a student, I want to learn about educational background and experiences
 
 ## Design Mockups
-
-Placeholder
+Initial Wireframes from Figma
+![Initial Mockups](../images/wireframes.svg)
