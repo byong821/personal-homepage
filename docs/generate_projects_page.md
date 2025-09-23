@@ -64,6 +64,6 @@ The layout presents your projects in an engaging, scannable format that effectiv
 
 ## Implementation Screenshot
 
-![Projects Page Implementation](images/codechunk_generated.jpeg)
+![Projects Page Implementation](../images/codechunk_generated.jpeg)
 
 The above screenshot shows the implemented projects page with professional project cards for both the NBA analytics and puzzle game applications.
