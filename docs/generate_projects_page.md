@@ -12,7 +12,7 @@ Select code & ask me to explain, debug or optimize it, or type `/` for quick act
 
 ---
 
-@workspace pretend you&#39;re a web developer creating a subpage for my projects in my personal web page that recruiters, developers, and colleagues will use. given these links to my repositories on github, and the descriptions i have for them, implement my  **@projects.html** to be engaging and professional:
+@workspace pretend you&#39;re a web developer creating a subpage for my projects in my personal web page that recruiters, developers, and colleagues will use. given these links to my repositories on github, and the descriptions i have for them, implement my **@projects.html** to be engaging and professional:
 
 nba analytics github repository link:
 https://github.com/Su24-CS5004-Online-Lionelle/final-project-group-9
@@ -38,7 +38,6 @@ multiple interactive buttons for game control, including quit, solve, and load n
 
 ---
 
-
 To add your workspace as context, enable local indexing in your IDE settings. After enabling, add @workspace to your question, and I'll generate a response using your workspace as context.
 
 ---
@@ -50,7 +49,6 @@ I'll replace the placeholder content in your projects.html with professional pro
 Replacing the placeholder projects content with professional project cards for the NBA analytics and puzzle game projects
 
 ---
-
 
 I've transformed your projects page into a professional showcase with two project cards that highlight your NBA analytics and puzzle game applications. The design features:
 

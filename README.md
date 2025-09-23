@@ -1,20 +1,24 @@
 # Brandan Yong's Personal Homepage
 
 ## Author
+
 Brandan Yong
 
 ## Class Link
+
 CS 5610 Web Development - Northeastern University
 https://johnguerra.co/classes/webDevelopment_fall_2025/
 
 ## Project Objective
+
 Create a professional personal homepage showcasing my background, skills, and projects using modern web development technologies including ES6 modules, responsive design, and interactive JavaScript functionality.
 
 ## Screenshot
+
 ![Homepage Preview](/images/homepage_preview.jpeg)
 
-
 ## Project Structure
+
 ```
 personal-homepage/
 ├── css/
@@ -36,6 +40,7 @@ personal-homepage/
 ```
 
 ## Instructions to Build
+
 1. Clone the repository
 2. Install dependencies: `npm install`
 3. Start local server: `npm start`
