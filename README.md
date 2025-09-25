@@ -57,3 +57,7 @@ personal-homepage/
 ## Link to Deployed Homepage
 
 https://byong821.github.io/personal-homepage/
+
+## Comments by your reviewer Utkarsh Dev!
+
+Please see the comments left in the pull request tab!
